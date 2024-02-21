@@ -14,7 +14,7 @@
   npm i
 ```
 
-- Após isso é necessário criar o arquivo .env.local na raiz do projeto e copiar o conteúdo do arquivo .env.exaple
+- Após isso é necessário criar o arquivo .env.local na raiz do projeto e copiar o conteúdo do arquivo .env.example
 
 ### Para rodar o projeto localmente
 
