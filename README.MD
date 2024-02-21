@@ -14,6 +14,8 @@
   npm i
 ```
 
+- Após isso é necessário criar o arquivo .env.local na raiz do projeto e copiar o conteúdo do arquivo .env.exaple
+
 ### Para rodar o projeto localmente
 
 Em um terminal dentro da pasta d projeto, suba a aplicação web:
