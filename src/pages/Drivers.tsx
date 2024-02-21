@@ -122,7 +122,7 @@ export function Drivers() {
             onClick={handleSubmit}
             disabled={!name || !document}
           >
-            Cadastrar veículo
+            Cadastrar motorista
           </Button>
         </FormModal>
       </DataTable>

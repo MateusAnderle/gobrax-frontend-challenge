@@ -134,7 +134,7 @@ export function DataTable({ children }: DataTableProps) {
             </TableRow>
           </TableHead>
           <TableBody>
-            {data.map((row, index) => (
+            {data?.map((row, index) => (
               <TableRow key={row.id}>
                 <TableCell padding="checkbox">
                   <Checkbox
@@ -197,7 +197,7 @@ export function DataTable({ children }: DataTableProps) {
             </TableRow>
           </TableHead>
           <TableBody>
-            {data.map((row) => (
+            {data?.map((row) => (
               <TableRow key={row.id}>
                 <TableCell align="left">{row.marca}</TableCell>
                 <TableCell align="left">{row.placa}</TableCell>
