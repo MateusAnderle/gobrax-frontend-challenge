@@ -5,8 +5,10 @@ interface RemoveVehicleProps {
   path: string;
 }
 
+const baseURL = import.meta.env.VITE_HOST;
+
 export async function removeVehicle({ id, path }: RemoveVehicleProps) {
-  const response = await api.delete(`http://localhost:3000${path}/${id}`);
+  const response = await api.delete(`${baseURL}${path}/${id}`);
 
   return response.status;
 }

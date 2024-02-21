@@ -5,8 +5,10 @@ interface RemoveDriverProps {
   path: string;
 }
 
+const baseURL = import.meta.env.VITE_HOST;
+
 export async function removeDriver({ id, path }: RemoveDriverProps) {
-  const response = await api.delete(`http://localhost:3000${path}/${id}`);
+  const response = await api.delete(`${baseURL}${path}/${id}`);
 
   return response.status;
 }
